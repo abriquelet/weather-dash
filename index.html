@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>5-Day Weather Forecast</h1>
+       <div id="flexContainer"> <input type="text" id="searchInput" placeholder="Enter city name">
+        <button id="searchButton">Search</button></div>
+        <h2 ></h2>
+        <div id="weatherDisplay" class="hidden">
+            <ul>
+                <li id="dayOne" class="day-forecast "></li>
+                <li id="dayTwo" class="day-forecast "></li>
+                <li id="dayThree" class="day-forecast "></li>
+                <li id="dayFour" class="day-forecast "></li>
+                <li id="dayFive" class="day-forecast "></li>
+            </ul>
+        </div>
+    </div> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery library -->
+    <script src="script.js"></script>
+</body>
+</html>
